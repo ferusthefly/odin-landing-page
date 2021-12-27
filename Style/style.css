@@ -1,16 +1,18 @@
-body {
-    border-color: orange;
-    border-style: solid;
-    border-width: 5px;
-  }
+/*Table of Contents
+  1 Header
+  2 Hero
+  3 Random Section
+  4 Qoute Section
+  5 Call to Action Section
+  6 Footer*/
   
+  /*1 Header*/
   .header {
     display: flex;
     justify-content: space-around;
     background-color: #1F2937;
-    border-color: purple;
-    border-style: solid;
-    border-width: 5px;
+    padding-top: 15px;
+    
   }
   
   .logo {
@@ -30,7 +32,7 @@ body {
     text-decoration: none;
     color: #E5E7Eb
   }
-  
+  /*2 Hero */
   p {
     font-size: 18px;
     font-weight: normal;
@@ -48,14 +50,14 @@ body {
   }
   
   .hero-left {
-    width: 30%;
+    width: 40%;
     color: #E5E7Eb;
     font-size: 18px;
    
   }
   
   .hero-right {
-    width: 30%;
+    width: 40%;
     background-color: grey;
     display: flex;
     justify-content: center;
@@ -63,17 +65,19 @@ body {
     font-size: 18px;
     color: #E5E7Eb;
   }
-  
+  /* 3 Random white section*/
   .random {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 50px 100px 150px 100px;
     
     
   }
   .subtext-images {
     display: flex;
     justify-content: center;
+    gap: 35px;
     
     
   }
@@ -82,6 +86,10 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
+    width: min-content;
+    gap: 25px;
+  
     
   }
   
@@ -92,14 +100,15 @@ body {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    padding-bottom: 50px;
   }
   
   button {
     background-color: #3882f6;
     border-radius: 5px;
     color: #F9FAF8;
-    border: 0;
-    padding: 5px 15px;
+    
+    padding: 5px 25px;
   }
   
   .main-left {
@@ -116,7 +125,7 @@ body {
     border-radius: 5px;
     padding: 50px 60px;
   }
-  
+  /*4 Qoute section */
   .qoute {
     display: flex;
     justify-content: center;
@@ -131,6 +140,7 @@ body {
     font-style: italic;
     font-weight: 300;
     padding: 40px 60px;
+    width: 65%;
   }
   
   .qoute-author {
@@ -138,7 +148,7 @@ body {
       font-weight: 800;
     font-size: 26px;
   }
-  
+  /*5 Call to Action Section */
   .cta-all {
     display: flex;
     justify-content: center;
@@ -155,6 +165,7 @@ body {
     gap: 150px;
     margin: 75px 75px;
     padding: 50px;
+    border-radius: 10px;
   }
   
   cta-button {
@@ -185,6 +196,19 @@ body {
   
   .cta-subtext {
     color: #E5E7Eb;
-    font-size: ;
     font-weight: 300;
+  }
+  
+  /*6 Footer */
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+  }
+  
+  .footer-text {
+    padding: 50px 100px;
+    color: #E5E7Eb
+  
   }
